@@ -1,0 +1,61 @@
+#root {
+  --redColor: #dc3545;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: var(--redColor);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+form input {
+  display: block;
+}
+
+form input:focus,
+form input:hover {
+  outline: none;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  padding: 5px 15px;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  max-width: 320px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li button {
+  margin-left: 20px;
+  background-color: transparent;
+}
+button:hover{
+  border: 1px solid var(--redColor);
+}
+
+button#clear-items{
+  margin-top: 20px;
+}
+
+.completed{
+  text-decoration: line-through;
+}
